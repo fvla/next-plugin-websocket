@@ -12,7 +12,7 @@
   "scripts": {
     "dev": "tsc -w",
     "build": "tsc",
-    "prepare": "tsc",
+    "install": "tsc",
     "format": "prettier --write \"**/*.{js,ts,md,json}\"",
     "postinstall": "node dist/patch.js"
   },
